@@ -1,0 +1,140 @@
+ body { 
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin-right: 20px;
+  
+}
+
+li {
+  float: right;
+  display: block;
+  padding: 4px;
+  
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+a:hover {
+  background-color: white;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.slide {
+  animation-name: slide;
+  animation-duration: 2s;
+  visibility: visible;
+  width: 50%;
+  overflow: hidden;
+  animation-fill-mode: forwards;
+}
+
+.appear {
+  animation-name: appear;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.slide p {
+  animation: slide 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    margin-left: 20%;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 40%;
+  }
+}
+
+@keyframes appear {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+.parallax {
+  height: 60%;
+  width: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#text{
+  margin-top: 17%;
+  font-size:50px;
+}
+
+#logo{
+  margin-left: 40px;
+}
+
+#text2
+{
+  font-size:25px;
+}
+
+#about{
+  margin:5px;
+  padding:30px;
+ /* border: 5px solid rgb(31, 194, 26); */
+ border-width: 5px;
+}
+
+#cycle{
+  height: 280px;
+  width: 280px;
+}
+
+#cyctext{
+  
+}
+
+@media screen and (max-width: 400px) {
+  li{
+    text-align: center;
+    margin: -8px;
+  }
+  #text{
+    margin-top: 0px;
+    font-size: 25px;
+    color: aqua;
+    margin-right: 0px;
+  }
+  #logo{
+    align-self: center;
+    margin-left: 10px;
+  }
+  #text2{
+    font-size: 15px;
+  }
+  #about{
+    padding: -5px;
+   /* border: 3px solid rgb(31, 194, 26); */
+   border-width: 3px;
+  }
+  #cycle{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+  }
+  #cyctext{
+    font-size: 15px;
+  }
+}
+
+
+
+
