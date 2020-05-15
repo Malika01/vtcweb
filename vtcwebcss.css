@@ -2,19 +2,18 @@
     font-family: 'Montserrat', sans-serif;
   }
   
-ul {
+/* ul {
   list-style-type: none;
   overflow: hidden;
   margin-right: 20px;
-  
-}
+  } */
 
 li {
   float: right;
   display: block;
   padding: 4px;
   
-}
+} 
 
 a {
   text-decoration: none;
@@ -59,7 +58,8 @@ a:hover {
 }
 
 .parallax {
-  height: 60%;
+  background-image: url(we_are.png);
+  height: 90%;
   width: 100%;
 
   background-attachment: fixed;
@@ -72,6 +72,7 @@ a:hover {
   font-size:50px;
 }
 
+
 #logo{
   margin-left: 40px;
 }
@@ -79,6 +80,7 @@ a:hover {
 #text2
 {
   font-size:25px;
+  margin-left: 55%;
 }
 
 #about{
@@ -87,24 +89,62 @@ a:hover {
  /* border: 5px solid rgb(31, 194, 26); */
  border-width: 5px;
 }
-
+@media screen and (max-height:1100px){
+#weare{
+  font-size: 50px;
+  position: fixed;
+  top: 40%;
+  left:40%;
+  z-index: 1;
+} }
+@media screen and (min-height:1100px){
+  #weare{
+    font-size: 70px;
+    position: fixed;
+    top: 80%;
+    left:40%;
+    z-index: 3;
+  } }
+  @media screen and (max-height:1050px) and (max-width:770px){
+    #weare{
+      font-size: 70px;
+      position: fixed;
+      top: 100%;
+      left:40%;
+      z-index: 3;
+    } }
 #cycle{
-  height: 280px;
-  width: 280px;
+  height: 340px;
+  width: 340px;
+  margin: 50px;
 }
 
 #cyctext{
-  
+  margin-top: 15px;
+  font-size: 20px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   li{
     text-align: center;
     margin: -8px;
   }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      margin-left: 10%;
+    }
+    100% {
+      opacity: 1;
+      margin-left: 25%;
+    }
+  }
+  .slide{
+    width:70%;
+  }
   #text{
     margin-top: 0px;
-    font-size: 25px;
+    font-size: 35px;
     color: aqua;
     margin-right: 0px;
   }
@@ -113,20 +153,44 @@ a:hover {
     margin-left: 10px;
   }
   #text2{
-    font-size: 15px;
+    font-size: 20px;
+    margin-left: 40%;
   }
   #about{
     padding: -5px;
    /* border: 3px solid rgb(31, 194, 26); */
    border-width: 3px;
-  }
+  } 
+  #weare{
+    font-size: xx-large;
+    position: fixed;
+    top: 120%;
+    left:30%;
+    z-index: 3;
+  } 
   #cycle{
     height: 150px;
     width: 150px;
     margin-bottom: 30px;
+    margin-top: 0px;
+    margin-left: 30px;
   }
   #cyctext{
-    font-size: 15px;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  .parallax{
+    background-image: url(we_are_mobile.png);
+    height: 90%;
+  }
+}
+@media screen and (max-width: 450px) and (max-height: 700px){
+  #weare{
+    font-size: xx-large;
+    position: fixed;
+    top: 140%;
+    left:30%;
+    z-index: 3;
   }
 }
 
