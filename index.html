@@ -15,14 +15,15 @@
         <script src="vtcwebsite.js"></script>
 
       </head>
-    <body style="overflow:auto;">
+    <body style="overflow:auto">
         
-        <div id="HOME" class="container-fluid bg" style="background: url(default_back_bg.png) no-repeat; background-size: 100% 100%;height:700px;">
+        <div id="HOME" class="container-fluid bg" style="background: url(default_back_bg.png) no-repeat;background-size: 100% 100%; height:700px;">
           <div class="row">
             <div class="col-sm-4">
               <img id="logo" src="vtc_logo.png" align="left" height="90px" width="90px" style=" margin-top: 10px;">
             </div>
-              <div class="col-sm-8" style="z-index: 1;">
+            <div class="col-sm-2"></div>
+              <div class="col-sm-6" style="z-index: 1;"> <!--
                 <ul class="nav d-flex flex-column flex-sm-row">
                   <li class="nav-item"><a class="nav-link" style="text-decoration: none; color:green; " href="#HOME">HOME</a></li>
                   <li class="nav-item"><a class="nav-link" style="text-decoration: none; color:green; " href=" ">BLOG</a></li>
@@ -30,34 +31,66 @@
                   <li class="nav-item"><a class="nav-link" style="text-decoration: none; color:green; " href=" ">EVENTS</a></li>
                   <li class="nav-item"><a class="nav-link" style="text-decoration: none; color:green; " href=" ">OUR BOARD</a></li>
                   <li class="nav-item"><a class="nav-link" style="text-decoration: none; color:green; " href=" ">CONTACT</a></li>
-                  </ul>
-              </div>
+                  </ul> -->
               
-          </div>
+          <nav class="navbar navbar-expand-sm bg-none navbar-dark">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon" style="border-color: green; background-color: green;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" style="text-decoration: none; color:green; " href="#HOME">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="text-decoration: none; color:green; " href="#BLOG">BLOG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="text-decoration: none; color:green; " href="#ABOUT">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="text-decoration: none; color:green; " href="#EVENTS">EVENTS</a>
+                </li>   
+                <li class="nav-item">
+                  <a class="nav-link" style="text-decoration: none; color:green; " href="#BOARD">BOARD</a>
+                </li>       
+                <li class="nav-item">
+                  <a class="nav-link" style="text-decoration: none; color:green; " href="#CONTACT">CONTACT</a>
+                </li>   
+              </ul>
+            </div>  
+          </nav> </div></div>
+          
                 <p id="text" style="color:white; opacity: 0;">VIT TREKKING CLUB</p>
-                <div id="text2" style="color: white;margin-left: 55%;margin-top: -20px;opacity:0;"> Nature. Zeal. Camaraderie. </div>
+                <div id="text2" style="color: white;margin-top: -20px;opacity:0;"> Nature. Zeal. Camaraderie. </div>
 
                 <div><img src="default_front_bg.png" width="100%" height="700px" style="position: absolute; top:0px; left: 0px; border: none;"></div>
-        </div>
 
-            <div class="parallax" style="background-image: url(we_are.png);"></div>
-               <center>
-            <div id="ABOUT" class="container-fluid">
-              <div id="about" class="row" style="border: solid rgb(31, 194, 26);">
+        </div>
+            
+            <div class="parallax" style="text-align: center;">
+            <span id="weare" style="color: white;background-color: rgba(0,0,0,0.7);">WE ARE..</span></div>
+           
+            
+            <center>
+            <div id="ABOUT" class="container-fluid" style="min-height: 50%;">
+              <div id="about" class="row" style="border: solid rgb(31, 194, 26); min-height: 50%;">
                 <div class="col-sm-6">
                   <img id="cycle" src="cycle2.png" >
                   </div>
         
-                <div id="cyctext" class="col-sm-6">
-                  jsdni jnionfjd <br> ubuifbweiufnwij <br> ujniwuefne <br> jenfwejnfwejnf <br> wjefnwojfnwodjc <br> jewnfwjenfwenf <br> wejfnwjenfwjef <br> ejfnwejfnwdjkf <br> wefnwkdfnfwdk 
+                <div id="cyctext" class="col-sm-6" style="text-align: right;">
+                  .. a group of dedicated trekkers aimed to conquer the best possible trails. Our motto is to find like-minded individuals that share the same enthusiasm to connect with the environment around us in all its raw glory, by going on expeditions and treks. 
+                  It’s not the mountain we conquer, but ourselves."
+                  We are a team with adventurous zeal and our leaders are equipped with plentiful experience and knowledge that has led us to great heights, quite literally. Trekking is one of the most cherished introductions to the mountains and with us, it becomes much more awesome. With us, you can expect unique experiences to get you off the well-trodden trails.
                 </div>
                 
               </div>
             </div>
             </center>
-            <div class="parallax" style="background-image: url(our_events.png);"></div>
-        
+            
+            <div class="parallax" style="background-image: url(our_events.png);"><span style="position: sticky;top:50%;left:50%;z-index: 1;font-size: 50px;">OUR EVENTS</span></div>
 
-        
-        </body>
+    </body>
 </html>
