@@ -59,7 +59,7 @@ a:hover {
 
 .parallax {
   background-image: url(we_are.png);
-  height: 90%;
+  height: 100%;
   width: 100%;
 
   background-attachment: fixed;
@@ -92,26 +92,25 @@ a:hover {
 @media screen and (max-height:1100px){
 #weare{
   font-size: 50px;
-  position: fixed;
-  top: 40%;
+  position: absolute;
+  top: 160%;
   left:40%;
-  z-index: 1;
 } }
 @media screen and (min-height:1100px){
   #weare{
     font-size: 70px;
-    position: fixed;
+    position: absolute;
     top: 80%;
     left:40%;
-    z-index: 3;
+   
   } }
   @media screen and (max-height:1050px) and (max-width:770px){
     #weare{
       font-size: 70px;
-      position: fixed;
+      position: absolute;
       top: 100%;
       left:40%;
-      z-index: 3;
+     
     } }
 #cycle{
   height: 340px;
@@ -143,7 +142,7 @@ a:hover {
     width:70%;
   }
   #text{
-    margin-top: 0px;
+    margin-top: 70px;
     font-size: 35px;
     color: aqua;
     margin-right: 0px;
@@ -163,10 +162,10 @@ a:hover {
   } 
   #weare{
     font-size: xx-large;
-    position: fixed;
+    position: absolute;
     top: 120%;
     left:30%;
-    z-index: 3;
+  
   } 
   #cycle{
     height: 150px;
@@ -180,20 +179,16 @@ a:hover {
     margin-top: 2px;
   }
   .parallax{
-    background-image: url(we_are_mobile.png);
+    background-image: url(we_are.png);
     height: 90%;
   }
 }
 @media screen and (max-width: 450px) and (max-height: 700px){
   #weare{
     font-size: xx-large;
-    position: fixed;
+    position: absolute;
     top: 140%;
     left:30%;
-    z-index: 3;
+   
   }
 }
-
-
-
-
