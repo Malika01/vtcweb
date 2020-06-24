@@ -91,31 +91,65 @@ a:hover {
 }
 @media screen and (max-height:1100px){
 #weare{
-  font-size: 50px;
+  font-size: 60px;
   position: absolute;
   top: 160%;
+  left:40%;
+}
+#ourevents{
+  font-size: 60px;
+  position: absolute;
+  top:365%;
+  left:37%;
+}
+#ourteam{
+  font-size: 60px;
+  position: absolute;
+  top:575%;
   left:40%;
 } }
 @media screen and (min-height:1100px){
   #weare{
-    font-size: 70px;
+    font-size: 80px;
     position: absolute;
-    top: 80%;
-    left:40%;
-   
-  } }
+    top: 90%;
+    left:30%;
+   } 
+   #ourevents{
+    font-size: 80px;
+    position: absolute;
+    top:250%;
+    left:23%;
+  }
+  #ourteam{
+    font-size: 80px;
+    position: absolute;
+    top:450%;
+    left:26%;
+  }}
   @media screen and (max-height:1050px) and (max-width:770px){
     #weare{
       font-size: 70px;
       position: absolute;
-      top: 100%;
-      left:40%;
-     
+      top: 105%;
+      left:30%;
+     }
+     #ourevents{
+      font-size: 70px;
+      position: absolute;
+      top:310%;
+      left:20%;
+    }
+    #ourteam{
+      font-size: 70px;
+      position: absolute;
+      top:510%;
+      left:25%;
     } }
 #cycle{
   height: 340px;
   width: 340px;
-  margin: 50px;
+  margin: 10px;
 }
 
 #cyctext{
@@ -156,17 +190,29 @@ a:hover {
     margin-left: 40%;
   }
   #about{
-    padding: -5px;
+    padding: 10px;
    /* border: 3px solid rgb(31, 194, 26); */
    border-width: 3px;
   } 
   #weare{
     font-size: xx-large;
     position: absolute;
-    top: 120%;
+    top: 130%;
     left:30%;
-  
   } 
+  #ourevents{
+    font-size: xx-large;
+    position: absolute;
+    top:295%;
+    left:25%;
+  }
+  #ourteam{
+    font-size: xx-large;
+    position: absolute;
+    top:485%;
+    left:30%;
+  }
+  
   #cycle{
     height: 150px;
     width: 150px;
@@ -187,8 +233,19 @@ a:hover {
   #weare{
     font-size: xx-large;
     position: absolute;
-    top: 140%;
+    top: 145%;
     left:30%;
-   
-  }
+    }
+    #ourevents{
+      font-size: xx-large;
+      position: absolute;
+      top:360%;
+      left:22%;
+    }
+    #ourteam{
+      font-size: xx-large;
+      position: absolute;
+      top:550%;
+      left:28%;
+    }
 }
