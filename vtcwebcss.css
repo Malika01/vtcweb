@@ -9,19 +9,19 @@
   } */
 
 li {
-  float: left;
+  float: right;
   display: block;
   padding: 8px;
   
 } 
 
 a {
-  text-decoration: none; color: red;
+  text-decoration: none; color: green;
 }
 
 a:hover {
   border-radius: 3px;
-  padding: 8px;
+  padding: 5px;
 }
 
 .slide {
